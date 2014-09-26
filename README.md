@@ -10,6 +10,7 @@ Valid options are:
 * **host** – default is `localhost`
 * **port** – default is `4730`
 
+
 	$> ./bin/publish 
 	Send data: hello world
 	Send data: will you be my friend
@@ -22,6 +23,7 @@ Valid options are:
 * **job** – default is `debug`
 * **host** – default is `localhost`
 * **port** – default is `4730`
+
 
 	$> ./bin/subscribe
 	INFO:root:{"input": "hello world", "timestamp": 1411762743.861222}
