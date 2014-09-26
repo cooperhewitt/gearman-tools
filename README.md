@@ -4,13 +4,25 @@ What are the simplest-and-dumbest tools for testing a Gearman setup?
 
 ## publish
 
-	gearman-tools$ ./bin/publish 
+	$> ./bin/publish 
 	Send data: hello world
 	Send data: will you be my friend
 	Send data: 
 
+Valid options are:
+
+* **job** – default is `debug`
+* **host** – default is `localhost`
+* **port** – default is `4730`
+
 ## subscribe
 
-	gearman-tools$ ./bin/subscribe
+	$> ./bin/subscribe
 	INFO:root:{"input": "hello world", "timestamp": 1411762743.861222}
 	INFO:root:{"input": "will you be my friend", "timestamp": 1411762748.337091}
+
+Valid options are:
+
+* **job** – default is `debug`
+* **host** – default is `localhost`
+* **port** – default is `4730`
