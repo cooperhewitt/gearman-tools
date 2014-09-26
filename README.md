@@ -10,6 +10,7 @@ Valid options are:
 * **host** – default is `localhost`
 * **port** – default is `4730`
 
+### Example
 
 	$> ./bin/publish 
 	Send data: hello world
@@ -24,6 +25,7 @@ Valid options are:
 * **host** – default is `localhost`
 * **port** – default is `4730`
 
+### Example
 
 	$> ./bin/subscribe
 	INFO:root:{"input": "hello world", "timestamp": 1411762743.861222}
